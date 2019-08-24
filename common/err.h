@@ -1,3 +1,6 @@
+#ifndef _APUE_ERR_H
+#define _APUE_ERR_H
+
 #include <errno.h>      /* for definition of errno */
 #include <stdarg.h>     /* ISO C variable aruments */
 #include <stdlib.h>
@@ -116,3 +119,4 @@ err_doit(int errnoflag, int error, const char *fmt, va_list ap)
    fputs(buf, stderr);
    fflush(NULL);       /* flushes all stdio output streams */
 }
+#endif
