@@ -5,7 +5,7 @@ struct foo {
     int f_count;
     pthread_mutex_t f_mutex;
     int f_id;
-}
+};
 
 struct foo *foo_alloc(int id)
 {
