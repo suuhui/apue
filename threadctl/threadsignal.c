@@ -1,5 +1,5 @@
 #include <signal.h>
 #include <pthread.h>
-#include "../common/err.h"
+#include "../lib/err.h"
 
 int quitflag;

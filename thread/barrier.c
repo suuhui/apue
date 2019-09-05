@@ -2,7 +2,7 @@
 #include <pthread.h>
 #include <sys/time.h>
 #include <limits.h>
-#include "../common/err.h"
+#include "../lib/err.h"
 
 #define NTHR 8
 #define NUM 16L

@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../common/err.h"
+#include "../lib/err.h"
 #include "sleep.c"
 
 void sig_int(int signo);

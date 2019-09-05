@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <sys/wait.h>
-#include "../common/err.h"
+#include "../lib/err.h"
 
 int main(int argc, char *argv[])
 {

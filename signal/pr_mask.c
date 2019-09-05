@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <signal.h>
 #include <errno.h>
-#include "../common/err.h"
+#include "../lib/err.h"
 
 void pr_mask(const char *str)
 {

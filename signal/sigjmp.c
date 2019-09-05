@@ -3,7 +3,7 @@
 #include <setjmp.h>
 #include <time.h>
 #include "./pr_mask.c"
-#include "../common/err.h"
+#include "../lib/err.h"
 
 void sig_usr1(int signo);
 void sig_alrm(int signo);

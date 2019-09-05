@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <pthread.h>
-#include "../common/err.h"
+#include "../lib/err.h"
 
 void *thrn1(void *);
 void *thrn2(void *);

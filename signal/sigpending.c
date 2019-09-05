@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <signal.h>
-#include "../common/err.h"
+#include "../lib/err.h"
 
 void sig_quit(int);
 

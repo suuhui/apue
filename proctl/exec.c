@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
-#include "../common/err.h"
+#include "../lib/err.h"
 
 char *env_init[] = {"USER=unknow", "PATH=/tmp", NULL};
 

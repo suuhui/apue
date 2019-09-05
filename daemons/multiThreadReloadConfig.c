@@ -7,7 +7,7 @@
 #include <string.h>
 #include "singleinstance.c"
 #include "daemonize.c"
-#include "../common/err.h"
+#include "../lib/err.h"
 
 sigset_t mask;
 extern int already_running(void);
@@ -48,8 +48,8 @@ int main(int argc, char *argv[])
     char *cmd;
     struct sigaction sa; 
 
-    if ((cmd = strrchr(argv[0], '/')) == NULL) {
-        cmd = argv[0];
+    if ((cmd = strrchr(argv[1], '/')) == NULL) {
+        cmd = argv[1];
     } else {
         cmd++;
     }

@@ -5,8 +5,8 @@
 #include <string.h>
 #include <fcntl.h>
 #include <sys/stat.h>
-#include "../common/err.h"
-#include "../common/path.c"
+#include "../lib/err.h"
+#include "../lib/path.c"
 
 typedef Myfunc(const char *, const struct stat *, int);
 

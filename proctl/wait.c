@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <sys/wait.h>
 #include <unistd.h>
-#include "../common/err.h"
-#include "../common/pr_exit.c"
+#include "../lib/err.h"
+#include "../lib/pr_exit.c"
 
 int main()
 {

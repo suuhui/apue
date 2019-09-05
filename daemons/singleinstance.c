@@ -6,8 +6,9 @@
 #include <sys/stat.h>
 #include <syslog.h>
 #include <unistd.h>
+#include "../lib/lockfile.c"
 
-#define LOCKFILE "/vau/run/daemon.pid"
+#define LOCKFILE "/var/run/daemon.pid"
 #define LOCKMODE (S_IRUSR|S_IWUSR|S_IRGRP|S_IROTH)
 
 extern int lockfile(int);
