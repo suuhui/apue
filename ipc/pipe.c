@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
-#include "../lib/common.c"
+#include "../lib/common.h"
 #include "../lib/err.h"
 
 int main(void)

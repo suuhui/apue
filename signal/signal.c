@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <signal.h>
-// #include "../lib/common.c"
+// #include "../lib/common.h"
 #include "../lib/err.h"
 
 typedef void Sigfunc(int);

@@ -3,7 +3,7 @@
 #include <sys/mman.h>
 #include <string.h>
 #include "../lib/err.h"
-#include "../lib/common.c"
+#include "../lib/common.h"
 
 #define COPYINCR (1024*1024*5)
 

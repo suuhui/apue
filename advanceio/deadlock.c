@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <fcntl.h>
-#include "../lib/common.c"
+#include "../lib/common.h"
 #include "../lib/err.h"
 #include "../lib/tellwait.c"
 #include "../lib/flock_reg.c"
